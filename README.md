@@ -12,7 +12,7 @@ This repository serves as a comprehensive learning portfolio documenting my syst
 
 Whether you're a fellow learner, mentor, or potential collaborator, this repository demonstrates my commitment to mastering C++ through deliberate practice and continuous improvement.
 
-## Goals and Mottivation
+## Goals and Motivation
 ### Learning Objectives
 - **Master C++ Fundamentals:** Build solid foundation in syntax, data structures, and control flow
 - **Object-Oriented Expertise:** Develop proficiency in classes, inheritance, and polymorphism
@@ -85,15 +85,15 @@ CppLearningJourney/
 ## Progress Dashboard
 
 ```
-📅 Days Active: 0/60        🎯 Current Phase: Getting Started
-💻 Lines Coded: 0           🏆 Projects Completed: 0
-📚 Concepts Mastered: 0/19  ⏱️  Current Week: 1
+📅 Days Active: 1/60          🎯 Current Phase: Structure of C++ Program
+💻 Code Examples: 1           🏆 Projects Completed: 0
+📚 Concepts Mastered: 1/19    ⏱️ Current Week: 1
 ```
 
 ## Progress Tracking
 |Topic|Status|Code|Notes|Completed|
 |---|---|---|---|---|
-|01 - Getting Started|⏳|--|--|--|
+|01 - Getting Started|✔️|[code](src\01-GettingStarted\01-GettingStarted.cpp)|[Notes](docs\notes\01-GettingStarted.md)|2025-09-16|
 |02 - Structure of C++ Program|⏳|--|--|--|
 |03 - Variables and Constants|⏳|--|--|--|
 |04 - Arrays and Vectors|⏳|--|--|--|
@@ -176,9 +176,9 @@ Feel free to explore, provide feedback, or follow my progress.
 
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00599C,100:004d7a&height=80&section=footer&text=C++%20Code%20Forge&fontSize=24&fontColor=ffffff&animation=twinkling&fontAlignY=65" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:DA1F05,100:A10100&height=80&section=footer&text=C++%20Code%20Forge&fontSize=24&fontColor=FE650D&animation=twinkling&fontAlignY=65" width="100%">
 
-*Last updated: 2025, September 12*    
+*Last updated: 2025, September 16*    
 Maintained by [@iftekharalamfahim](https://github.com/iftekharalamfahim) 
 </div>
 

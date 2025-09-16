@@ -1,16 +1,18 @@
+/*
+ * Topic: Getting Started with C++
+ * Date: 2025-09-12
+ * Learning Goals:Set up environment
+ * Key Concepts: Different types of Errors, Compiling Process. 
+ */
+
 #include <iostream>
-#include <string>
 
 int main() {
-    std::cout << "=== C++ Learning Journey - Day 1 ===" << std::endl;
-    std::cout << "Welcome to my C++ adventure!" << std::endl;
+	int favourite_number;
+	std::cout << "Enter your favourite number between 1 and 100:";
+	std::cin >> favourite_number;
+	std::cout << "Amazing! That's my favourite number too!" << std::endl;
+	std::cout << "No really! "<< favourite_number << " is my favourite number too!" << std::endl;
 
-    std::string name;
-    std::cout << "Enter your name: ";
-    std::getline(std::cin, name);
-
-    std::cout << "Hello, " << name << "!" << std::endl;
-    std::cout << "Let's master C++ together!" << std::endl;
-
-    return 0;
+	return 0;
 }
