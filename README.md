@@ -85,16 +85,16 @@ CppLearningJourney/
 ## Progress Dashboard
 
 ```
-📅 Days Active: 1/60          🎯 Current Phase: Structure of C++ Program
+📅 Days Active: 2/60          🎯 Current Phase: Variables & Constants
 💻 Code Examples: 1           🏆 Projects Completed: 0
-📚 Concepts Mastered: 1/19    ⏱️ Current Week: 1
+📚 Concepts Mastered: 2/19    ⏱️ Current Week: 1
 ```
 
 ## Progress Tracking
 |Topic|Status|Code|Notes|Completed|
 |---|---|---|---|---|
-|01 - Getting Started|✔️|[code](src\01-GettingStarted\01-GettingStarted.cpp)|[Notes](docs\notes\01-GettingStarted.md)|2025-09-16|
-|02 - Structure of C++ Program|⏳|--|--|--|
+|01 - Getting Started|✔️|[code](src/01-GettingStarted/01-GettingStarted.cpp)|[Notes](docs/notes/01-GettingStarted.md)|2025-09-16|
+|02 - Structure of C++ Program|✔️|[code](src/02-StructureOfCppProgram.cpp)|[Notes](docs/notes/02-StructureOfCppProgram.md)|2025-09-18|
 |03 - Variables and Constants|⏳|--|--|--|
 |04 - Arrays and Vectors|⏳|--|--|--|
 |05 - Statements and Operators|⏳|--|--|--|
@@ -163,7 +163,7 @@ While this is primarily a personal learning project, I welcome feedback and sugg
 - **Learning Resources:** Recommend additional books, tutorials, or practice problems
 - Reach out via GitHub Discussions or connect with me on [twitter](https://x.com/_IftekharFahim) or [LinkedIn](https://www.linkedin.com/in/iftekharalamfahim/).
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/iftekharalamfahim/CppCodeForge)](https://github.com/iftekharalamfahim/CppCodeForge/commits) ![Days Active](https://img.shields.io/badge/Day-1-blue) ![Cpp](https://img.shields.io/badge/Cpp-Learning-blue?logo=cpp&logoColor=white)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/iftekharalamfahim/CppCodeForge)](https://github.com/iftekharalamfahim/CppCodeForge/commits) ![Days Active](https://img.shields.io/badge/Day-2-blue) ![Cpp](https://img.shields.io/badge/Cpp-Learning-blue?logo=cpp&logoColor=white)
  
   
 
@@ -178,7 +178,7 @@ Feel free to explore, provide feedback, or follow my progress.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:DA1F05,100:A10100&height=80&section=footer&text=C++%20Code%20Forge&fontSize=24&fontColor=FE650D&animation=twinkling&fontAlignY=65" width="100%">
 
-*Last updated: 2025, September 16*    
-Maintained by [@iftekharalamfahim](https://github.com/iftekharalamfahim) 
+*Last updated: 2025, September 18*    
+Maintained by [brainsect](https://github.com/iftekharalamfahim) 
 </div>
 
