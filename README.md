@@ -94,7 +94,7 @@ CppLearningJourney/
 |Topic|Status|Code|Notes|Completed|
 |---|---|---|---|---|
 |01 - Getting Started|✔️|[code](CppCodeForge/src/01-GettingStarted/01-GettingStarted.cpp)|[Notes](CppCodeForge/docs/notes/01-GettingStarted.md)|2025-09-16|
-|02 - Structure of C++ Program|✔️|[code](CppCodeForge/src/02-StructureOfCppProgram.cpp)|[Notes](CppCodeForge/docs/notes/02-StructureOfCppProgram.md)|2025-09-18|
+|02 - Structure of C++ Program|✔️|[code](CppCodeForge/src/02-StructureOfCppProgram/02-StructureOfCppProgram.cpp)|[Notes](CppCodeForge/docs/notes/02-StructureOfCppProgram.md)|2025-09-18|
 |03 - Variables and Constants|⏳|--|--|--|
 |04 - Arrays and Vectors|⏳|--|--|--|
 |05 - Statements and Operators|⏳|--|--|--|
