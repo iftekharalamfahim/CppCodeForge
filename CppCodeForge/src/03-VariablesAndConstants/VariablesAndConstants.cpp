@@ -7,7 +7,7 @@ using namespace std;
 int main() {
 	double length, width, area;
 
-	cout << "Enter the lenght of the room: " << endl;
+	cout << "Enter the lenght of the room: ";
 	cin >> length;
 	cout << "Enter the widht of the room: ";
 	cin >> width;
