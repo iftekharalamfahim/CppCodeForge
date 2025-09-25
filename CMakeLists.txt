@@ -25,7 +25,10 @@ file(GLOB_RECURSE HEADERS
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS}
         CppCodeForge/src/03-VariablesAndConstants/PrimitiveTypes.cpp
         CppCodeForge/src/03-VariablesAndConstants/SizeofOperator.cpp
-        CppCodeForge/src/03-VariablesAndConstants/Exercise.cpp)
+        CppCodeForge/src/03-VariablesAndConstants/Exercise.cpp
+        CppCodeForge/src/04-ArraysAndVectors/Arrays.cpp
+        CppCodeForge/src/04-ArraysAndVectors/vectors.cpp
+        CppCodeForge/src/04-ArraysAndVectors/Exercise.cpp)
 
 # Include directories
 target_include_directories(${PROJECT_NAME} PRIVATE
