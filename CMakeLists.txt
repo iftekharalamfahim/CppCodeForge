@@ -28,7 +28,16 @@ add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS}
         CppCodeForge/src/03-VariablesAndConstants/Exercise.cpp
         CppCodeForge/src/04-ArraysAndVectors/Arrays.cpp
         CppCodeForge/src/04-ArraysAndVectors/vectors.cpp
-        CppCodeForge/src/04-ArraysAndVectors/Exercise.cpp)
+        CppCodeForge/src/04-ArraysAndVectors/Exercise.cpp
+        CppCodeForge/src/05-StatementsAndOperators/AssignmentOperators.cpp
+        "CppCodeForge/src/05-StatementsAndOperators/ArithmeticOperators.cpp"
+        CppCodeForge/src/05-StatementsAndOperators/RmbConverterExercise.cpp
+        CppCodeForge/src/05-StatementsAndOperators/IncrementDecrementOperators.cpp
+        CppCodeForge/src/05-StatementsAndOperators/MixedExpressions.cpp
+        CppCodeForge/src/05-StatementsAndOperators/EqualityOperators.cpp
+        CppCodeForge/src/05-StatementsAndOperators/RelationalOperators.cpp
+        CppCodeForge/src/05-StatementsAndOperators/LogicalOperators.cpp
+        CppCodeForge/src/05-StatementsAndOperators/Exercise.cpp)
 
 # Include directories
 target_include_directories(${PROJECT_NAME} PRIVATE
