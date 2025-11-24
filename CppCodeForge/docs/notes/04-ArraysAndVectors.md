@@ -7,7 +7,7 @@
 - Each value in an array is called an element, and each element can be accessed using its index.
 - The index of the first element in an array is 0, the index of the second element is 1, and so on. And the last element is at index n-1, where n is the number of elements in the array.
 - The size of an array must be specified at the time of declaration and cannot be changed later.
-- Arrays can be single-dimensional or multi-dimensional.
+- Arrays can be single-dimensional or multidimensional.
 - The size of an Array is fixed at compile time.
 - Array elements can be accessed and modified individually using their index.
 - Arrays are bound-checked at runtime, meaning that accessing an element outside the bounds of the array can lead to undefined behavior.
@@ -172,3 +172,100 @@ using namespace std;
   vector <vector <double>> high_score_per_grade; // empty 2D vector of doubles  
   vector <vector <string>> student_names; // empty 2D vector of strings
 ```
+
+# C++ Vector Syntax Reference
+
+## Element Access
+| Syntax | Description | Example |
+|--------|-------------|---------|
+| `vec[i]` | Access element at index i (no bounds checking) | `int x = vec[0];` |
+| `vec.at(i)` | Access element at index i (with bounds checking) | `int x = vec.at(0);` |
+| `vec.front()` | Access first element | `int x = vec.front();` |
+| `vec.back()` | Access last element | `int x = vec.back();` |
+| `vec.data()` | Returns pointer to underlying array | `int* ptr = vec.data();` |
+
+## Capacity
+| Syntax | Description | Example |
+|--------|-------------|---------|
+| `vec.size()` | Returns number of elements | `size_t n = vec.size();` |
+| `vec.capacity()` | Returns allocated storage capacity | `size_t cap = vec.capacity();` |
+| `vec.empty()` | Checks if vector is empty | `if (vec.empty()) {...}` |
+| `vec.reserve(n)` | Reserves storage for n elements | `vec.reserve(100);` |
+| `vec.shrink_to_fit()` | Reduces capacity to fit size | `vec.shrink_to_fit();` |
+| `vec.max_size()` | Returns maximum possible elements | `size_t max = vec.max_size();` |
+
+## Modifiers
+| Syntax | Description | Example |
+|--------|-------------|---------|
+| `vec.push_back(val)` | Adds element to end | `vec.push_back(5);` |
+| `vec.pop_back()` | Removes last element | `vec.pop_back();` |
+| `vec.insert(pos, val)` | Inserts element at position | `vec.insert(vec.begin(), 5);` |
+| `vec.insert(pos, n, val)` | Inserts n copies of val | `vec.insert(vec.begin(), 3, 5);` |
+| `vec.erase(pos)` | Removes element at position | `vec.erase(vec.begin());` |
+| `vec.erase(first, last)` | Removes range of elements | `vec.erase(vec.begin(), vec.end());` |
+| `vec.clear()` | Removes all elements | `vec.clear();` |
+| `vec.emplace(pos, args)` | Constructs element in-place at position | `vec.emplace(vec.begin(), 5);` |
+| `vec.emplace_back(args)` | Constructs element in-place at end | `vec.emplace_back(5);` |
+| `vec.resize(n)` | Resizes to n elements | `vec.resize(10);` |
+| `vec.resize(n, val)` | Resizes to n elements with value | `vec.resize(10, 0);` |
+| `vec.swap(vec2)` | Swaps contents with another vector | `vec.swap(vec2);` |
+| `vec.assign(n, val)` | Assigns n copies of val | `vec.assign(5, 10);` |
+| `vec.assign(first, last)` | Assigns range from iterators | `vec.assign(v2.begin(), v2.end());` |
+
+## Iterators
+| Syntax | Description | Example |
+|--------|-------------|---------|
+| `vec.begin()` | Returns iterator to first element | `auto it = vec.begin();` |
+| `vec.end()` | Returns iterator to past-the-end | `auto it = vec.end();` |
+| `vec.rbegin()` | Returns reverse iterator to last element | `auto it = vec.rbegin();` |
+| `vec.rend()` | Returns reverse iterator to before-first | `auto it = vec.rend();` |
+| `vec.cbegin()` | Returns const iterator to first element | `auto it = vec.cbegin();` |
+| `vec.cend()` | Returns const iterator to past-the-end | `auto it = vec.cend();` |
+| `vec.crbegin()` | Returns const reverse iterator to last | `auto it = vec.crbegin();` |
+| `vec.crend()` | Returns const reverse iterator to before-first | `auto it = vec.crend();` |
+
+## Construction
+| Syntax | Description | Example |
+|--------|-------------|---------|
+| `vector<int> vec;` | Default constructor (empty vector) | `vector<int> vec;` |
+| `vector<int> vec(n);` | Creates vector with n default elements | `vector<int> vec(10);` |
+| `vector<int> vec(n, val);` | Creates vector with n copies of val | `vector<int> vec(10, 5);` |
+| `vector<int> vec(vec2);` | Copy constructor | `vector<int> vec(vec2);` |
+| `vector<int> vec(first, last);` | Constructs from iterator range | `vector<int> vec(arr, arr+5);` |
+| `vector<int> vec{1,2,3};` | Initializer list constructor | `vector<int> vec{1,2,3,4,5};` |
+| `vector<int> vec = vec2;` | Copy assignment | `vector<int> vec = vec2;` |
+
+## Comparison Operators
+| Syntax | Description | Example |
+|--------|-------------|---------|
+| `vec1 == vec2` | Checks if vectors are equal | `if (vec1 == vec2) {...}` |
+| `vec1 != vec2` | Checks if vectors are not equal | `if (vec1 != vec2) {...}` |
+| `vec1 < vec2` | Lexicographical less than | `if (vec1 < vec2) {...}` |
+| `vec1 <= vec2` | Lexicographical less than or equal | `if (vec1 <= vec2) {...}` |
+| `vec1 > vec2` | Lexicographical greater than | `if (vec1 > vec2) {...}` |
+| `vec1 >= vec2` | Lexicographical greater than or equal | `if (vec1 >= vec2) {...}` |
+
+## Common Usage Patterns
+```c++
+// Iterating through vector
+for (int i = 0; i < vec.size(); i++) {
+    cout << vec[i] << " ";
+}
+
+// Range-based for loop
+for (const auto& elem : vec) {
+    cout << elem << " ";
+}
+
+// Iterator-based loop
+for (auto it = vec.begin(); it != vec.end(); ++it) {
+    cout << *it << " ";
+}
+```
+
+## Notes
+- Always use `#include <vector>` at the top of your file
+- Vectors are dynamic arrays that automatically resize
+- `push_back()` may cause reallocation if capacity is exceeded
+- `at()` throws `out_of_range` exception if index is invalid
+- `[]` operator does not perform bounds checking (faster but unsafe)
