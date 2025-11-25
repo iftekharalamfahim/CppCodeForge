@@ -37,7 +37,24 @@ add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS}
         CppCodeForge/src/05-StatementsAndOperators/EqualityOperators.cpp
         CppCodeForge/src/05-StatementsAndOperators/RelationalOperators.cpp
         CppCodeForge/src/05-StatementsAndOperators/LogicalOperators.cpp
-        CppCodeForge/src/05-StatementsAndOperators/Exercise.cpp)
+        CppCodeForge/src/05-StatementsAndOperators/Exercise.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/IfStatement.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/WeddingExercise.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/NestedIfStatements.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/DeliveryCost.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/SwtichStatement.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/SwitchEnum.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/TernaryOperator.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/ForLoop.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/SumOfEvenIntegers.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/RangeBasedForLoop.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/MonthOfTheYear.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/WhileLoop.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/DoWhileLoop.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/MultiplicationTable.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/Histogram.cpp
+        CppCodeForge/src/06-ControllingProgramFlow/ControlFlowChallenge.cpp
+)
 
 # Include directories
 target_include_directories(${PROJECT_NAME} PRIVATE
