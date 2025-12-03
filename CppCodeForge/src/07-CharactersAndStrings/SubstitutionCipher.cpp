@@ -34,7 +34,7 @@
 
 #include <iostream>
 #include <string>
-#include <pstl/execution_defs.h>
+
 using namespace std;
 
 int main() {
