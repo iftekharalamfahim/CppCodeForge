@@ -54,6 +54,10 @@ add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS}
         CppCodeForge/src/06-ControllingProgramFlow/MultiplicationTable.cpp
         CppCodeForge/src/06-ControllingProgramFlow/Histogram.cpp
         CppCodeForge/src/06-ControllingProgramFlow/ControlFlowChallenge.cpp
+        CppCodeForge/src/07-CharactersAndStrings/CStyleStrings.cpp
+        CppCodeForge/src/07-CharactersAndStrings/CStyleExercise.cpp
+        CppCodeForge/src/07-CharactersAndStrings/CPPStrings.cpp
+        CppCodeForge/src/07-CharactersAndStrings/SubstitutionCipher.cpp
 )
 
 # Include directories
